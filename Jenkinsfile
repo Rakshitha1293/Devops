@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from the repository
-                git branch: 'main', url: 'https://github.com/your-repo/sample-app.git'
+                git branch: 'main', url: 'https://github.com/Rakshitha1293/Devops.git'
             }
         }
 
